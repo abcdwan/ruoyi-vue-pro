@@ -125,6 +125,9 @@ public interface ErrorCodeConstants {
     ErrorCode SOCIAL_CLIENT_NOT_EXISTS = new ErrorCode(1_002_018_210, "社交客户端不存在");
     ErrorCode SOCIAL_CLIENT_UNIQUE = new ErrorCode(1_002_018_211, "社交客户端已存在配置");
 
+    // ========== 用户组 1-002-019-000 ==========
+    ErrorCode GROUP_NOT_EXISTS = new ErrorCode(1_002_019_000, "用户组不存在");
+
 
     // ========== OAuth2 客户端 1-002-020-000 =========
     ErrorCode OAUTH2_CLIENT_NOT_EXISTS = new ErrorCode(1_002_020_000, "OAuth2 客户端不存在");
